@@ -16,68 +16,43 @@ import UserWishList from "./DashBoard/UserDashboard/Pages/UserWishList";
 import UserBookList from "./DashBoard/UserDashboard/Pages/UserBookList";
 import SingleBookPage from "./Components/Shared/SingleBookPage";
 import ApplyAsaAuthor from "./DashBoard/UserDashboard/Pages/ApplyAsaAuthor";
+import Cart, { CartProvider } from "./Components/NavBar/Cart";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    children:[
-      {
-        path: "/",
-        element: <Home />
-      },
-      {
-        path: "/aboutUs",
-        element: <AboutUs/>
-      },
-      {
-        path: "/contactUs",
-        element: <ContactUs/>
-      },
-      {
-        path: "/blog",
-        element: <Blog/>
-      },
-       {
-        path: "/allBooks",
-        element: <AllBooks/>
-      },
-      {
-        path: "/logIn",
-        element: <LogIn/>
-      },
-       {
-        path: "/signUp",
-        element: <SignUp/>
-      },
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/aboutUs", element: <AboutUs /> },
+      { path: "/contactUs", element: <ContactUs /> },
+      { path: "/blog", element: <Blog /> },
+      { path: "/allBooks", element: <AllBooks /> },
+      { path: "/logIn", element: <LogIn /> },
+      { path: "/signUp", element: <SignUp /> },
+      { path: "/cart", element: <Cart /> },
+
+     
+      { path: "/book/:id", element: <SingleBookPage /> }
     ]
   },
+
   {
-    path:"/userDash",
-    element: <UserDash></UserDash>,
-    children:[
-      {
-        path:"/userDash",
-        element: <UserWishList ></UserWishList>
-      },
-      {
-        path:"/userDash/userBookList",
-        element: <UserBookList />
-      },
-      {
-        path:"/userDash/applyAsaAthor",
-        element: <ApplyAsaAuthor />
-      },
+    path: "/userDash",
+    element: <UserDash />,
+    children: [
+      { path: "/userDash", element: <UserWishList /> },
+      { path: "/userDash/userBookList", element: <UserBookList /> },
+      { path: "/userDash/applyAsaAthor", element: <ApplyAsaAuthor /> },
     ]
-  },
-  {
- path:"/singleBook",
-    element: <SingleBookPage/>,
   }
 ]);
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
   </StrictMode>
 );

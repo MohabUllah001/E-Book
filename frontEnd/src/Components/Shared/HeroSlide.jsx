@@ -1,11 +1,12 @@
 export const HeroSlide = ({ badge, title, highlight, description, image }) => {
   return (
-    <div className="relative min-h-[90vh]">
+    <div className="relative h-full">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#130749] via-[#1b2476] to-[#3460c7] opacity-95"></div>
 
       {/* Content */}
-      <div className="relative max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+      <div className="relative h-full max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+
         {/* Left Content */}
         <div className="text-white space-y-6">
           <div className="flex items-center gap-3">
@@ -41,11 +42,11 @@ export const HeroSlide = ({ badge, title, highlight, description, image }) => {
         </div>
 
         {/* Right Image */}
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center items-center">
           <img
             src={image}
             alt="Hero"
-            className="max-w-md lg:max-w-lg rounded-xl drop-shadow-2xl"
+            className="max-h-[60vh] object-contain rounded-xl drop-shadow-2xl"
           />
 
           <img
@@ -54,7 +55,9 @@ export const HeroSlide = ({ badge, title, highlight, description, image }) => {
             className="absolute -right-6 top-20 w-28 rotate-6 hidden lg:block shadow-xl"
           />
         </div>
+
       </div>
     </div>
   );
 };
+

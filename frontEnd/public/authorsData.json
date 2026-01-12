@@ -1,0 +1,14 @@
+{
+  "authors": [
+    { "authorId": "A001", "authorName": "Wendell Berry" },
+    { "authorId": "A002", "authorName": "John Milton" },
+    { "authorId": "A003", "authorName": "Emily Dickinson" },
+    { "authorId": "A004", "authorName": "Rabindranath Tagore" },
+    { "authorId": "A005", "authorName": "Stephen Hawking" },
+    { "authorId": "A006", "authorName": "Leo Tolstoy" },
+    { "authorId": "A007", "authorName": "Mark Twain" },
+    { "authorId": "A008", "authorName": "Jane Austen" },
+    { "authorId": "A009", "authorName": "George Orwell" },
+    { "authorId": "A010", "authorName": "H.G. Wells" }
+  ]
+}

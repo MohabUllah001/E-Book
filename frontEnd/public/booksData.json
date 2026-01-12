@@ -1,0 +1,224 @@
+{
+  "books": [
+    {
+      "bookId": "B001",
+      "bookName": "Following the Call",
+      "authorId": "A001",
+      "categoryId": "C06",
+      "releaseDate": "2024-05-10",
+      "shortDescription": "A thoughtful spiritual guide for reflection and group study.",
+      "price": 14.99,
+      "sellingQuantity": 145,
+      "cover": "https://picsum.photos/300/450?random=1"
+    },
+    {
+      "bookId": "B002",
+      "bookName": "Paradise Lost",
+      "authorId": "A002",
+      "categoryId": "C02",
+      "releaseDate": "2023-11-20",
+      "shortDescription": "The epic story of heaven, hell, and humanity.",
+      "price": 12.50,
+      "sellingQuantity": 310,
+      "cover": "https://picsum.photos/300/450?random=2"
+    },
+    {
+      "bookId": "B003",
+      "bookName": "Selected Poems",
+      "authorId": "A003",
+      "categoryId": "C03",
+      "releaseDate": "2024-02-15",
+      "shortDescription": "A beautiful collection of timeless poetry.",
+      "price": 9.99,
+      "sellingQuantity": 190,
+      "cover": "https://picsum.photos/300/450?random=3"
+    },
+    {
+      "bookId": "B004",
+      "bookName": "Gitanjali",
+      "authorId": "A004",
+      "categoryId": "C03",
+      "releaseDate": "2023-09-05",
+      "shortDescription": "Spiritual poems of love and devotion.",
+      "price": 11.25,
+      "sellingQuantity": 275,
+      "cover": "https://picsum.photos/300/450?random=4"
+    },
+    {
+      "bookId": "B005",
+      "bookName": "A Brief History of Time",
+      "authorId": "A005",
+      "categoryId": "C04",
+      "releaseDate": "2022-06-18",
+      "shortDescription": "A fascinating explanation of the universe and time.",
+      "price": 18.99,
+      "sellingQuantity": 420,
+      "cover": "https://picsum.photos/300/450?random=5"
+    },
+    {
+      "bookId": "B006",
+      "bookName": "War and Peace",
+      "authorId": "A006",
+      "categoryId": "C02",
+      "releaseDate": "2023-04-12",
+      "shortDescription": "A powerful story of love, war, and destiny.",
+      "price": 19.50,
+      "sellingQuantity": 360,
+      "cover": "https://picsum.photos/300/450?random=6"
+    },
+    {
+      "bookId": "B007",
+      "bookName": "Anna Karenina",
+      "authorId": "A006",
+      "categoryId": "C13",
+      "releaseDate": "2023-07-10",
+      "shortDescription": "A tragic love story.",
+      "price": 15.40,
+      "sellingQuantity": 295,
+      "cover": "https://picsum.photos/300/450?random=7"
+    },
+    {
+      "bookId": "B008",
+      "bookName": "Tom Sawyer",
+      "authorId": "A007",
+      "categoryId": "C10",
+      "releaseDate": "2022-10-01",
+      "shortDescription": "A mischievous boy’s adventure.",
+      "price": 10.99,
+      "sellingQuantity": 410,
+      "cover": "https://picsum.photos/300/450?random=8"
+    },
+    {
+      "bookId": "B009",
+      "bookName": "Huckleberry Finn",
+      "authorId": "A007",
+      "categoryId": "C10",
+      "releaseDate": "2022-12-14",
+      "shortDescription": "A journey of freedom.",
+      "price": 11.50,
+      "sellingQuantity": 385,
+      "cover": "https://picsum.photos/300/450?random=9"
+    },
+    {
+      "bookId": "B010",
+      "bookName": "Pride and Prejudice",
+      "authorId": "A008",
+      "categoryId": "C13",
+      "releaseDate": "2023-01-25",
+      "shortDescription": "A classic romantic novel.",
+      "price": 13.75,
+      "sellingQuantity": 470,
+      "cover": "https://picsum.photos/300/450?random=10"
+    },
+    {
+      "bookId": "B011",
+      "bookName": "1984",
+      "authorId": "A009",
+      "categoryId": "C12",
+      "releaseDate": "2023-06-01",
+      "shortDescription": "A dystopian thriller.",
+      "price": 14.30,
+      "sellingQuantity": 520,
+      "cover": "https://picsum.photos/300/450?random=11"
+    },
+    {
+      "bookId": "B012",
+      "bookName": "Animal Farm",
+      "authorId": "A009",
+      "categoryId": "C08",
+      "releaseDate": "2023-08-10",
+      "shortDescription": "A political allegory.",
+      "price": 9.80,
+      "sellingQuantity": 480,
+      "cover": "https://picsum.photos/300/450?random=12"
+    },
+    {
+      "bookId": "B013",
+      "bookName": "The Time Machine",
+      "authorId": "A010",
+      "categoryId": "C14",
+      "releaseDate": "2022-09-01",
+      "shortDescription": "A journey through time.",
+      "price": 11.75,
+      "sellingQuantity": 260,
+      "cover": "https://picsum.photos/300/450?random=13"
+    },
+    {
+      "bookId": "B014",
+      "bookName": "The Invisible Man",
+      "authorId": "A010",
+      "categoryId": "C12",
+      "releaseDate": "2022-11-12",
+      "shortDescription": "A dark science thriller.",
+      "price": 10.60,
+      "sellingQuantity": 240,
+      "cover": "https://picsum.photos/300/450?random=14"
+    },
+    {
+      "bookId": "B015",
+      "bookName": "Cosmos",
+      "authorId": "A005",
+      "categoryId": "C04",
+      "releaseDate": "2023-02-01",
+      "shortDescription": "Exploring the universe.",
+      "price": 17.99,
+      "sellingQuantity": 390,
+      "cover": "https://picsum.photos/300/450?random=15"
+    },
+    {
+      "bookId": "B016",
+      "bookName": "Philosophy Basics",
+      "authorId": "A001",
+      "categoryId": "C06",
+      "releaseDate": "2024-05-01",
+      "shortDescription": "Understanding life.",
+      "price": 12.49,
+      "sellingQuantity": 180,
+      "cover": "https://picsum.photos/300/450?random=16"
+    },
+    {
+      "bookId": "B017",
+      "bookName": "Nature Poems",
+      "authorId": "A003",
+      "categoryId": "C03",
+      "releaseDate": "2024-04-10",
+      "shortDescription": "Poems inspired by nature.",
+      "price": 8.50,
+      "sellingQuantity": 150,
+      "cover": "https://picsum.photos/300/450?random=17"
+    },
+    {
+      "bookId": "B018",
+      "bookName": "Children Stories",
+      "authorId": "A007",
+      "categoryId": "C10",
+      "releaseDate": "2024-01-05",
+      "shortDescription": "Fun stories for kids.",
+      "price": 6.99,
+      "sellingQuantity": 330,
+      "cover": "https://picsum.photos/300/450?random=18"
+    },
+    {
+      "bookId": "B019",
+      "bookName": "Fantasy World",
+      "authorId": "A010",
+      "categoryId": "C11",
+      "releaseDate": "2023-12-10",
+      "shortDescription": "A magical journey.",
+      "price": 14.20,
+      "sellingQuantity": 210,
+      "cover": "https://picsum.photos/300/450?random=19"
+    },
+    {
+      "bookId": "B020",
+      "bookName": "Thriller Nights",
+      "authorId": "A009",
+      "categoryId": "C12",
+      "releaseDate": "2024-02-14",
+      "shortDescription": "A suspense thriller.",
+      "price": 13.80,
+      "sellingQuantity": 340,
+      "cover": "https://picsum.photos/300/450?random=20"
+    }
+  ]
+}

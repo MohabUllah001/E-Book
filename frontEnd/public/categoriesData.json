@@ -1,0 +1,18 @@
+{
+  "categories": [
+    { "categoryId": "C01", "categoryName": "Love" },
+    { "categoryId": "C02", "categoryName": "War" },
+    { "categoryId": "C03", "categoryName": "Poems" },
+    { "categoryId": "C04", "categoryName": "Science" },
+    { "categoryId": "C05", "categoryName": "Regional" },
+    { "categoryId": "C06", "categoryName": "Philosophy" },
+    { "categoryId": "C07", "categoryName": "History" },
+    { "categoryId": "C08", "categoryName": "Politics" },
+    { "categoryId": "C09", "categoryName": "Religion" },
+    { "categoryId": "C10", "categoryName": "Kids" },
+    { "categoryId": "C11", "categoryName": "Fantasy" },
+    { "categoryId": "C12", "categoryName": "Thriller" },
+    { "categoryId": "C13", "categoryName": "Romance" },
+    { "categoryId": "C14", "categoryName": "Technology" }
+  ]
+}

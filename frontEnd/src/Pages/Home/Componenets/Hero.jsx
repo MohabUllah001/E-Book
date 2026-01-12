@@ -12,13 +12,12 @@ import { HeroSlide } from "../../../Components/Shared/HeroSlide";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden h-[70vh]">
       <Swiper
         navigation
         modules={[Navigation]}
-        className="w-full"
+        className="w-full h-full"
       >
-        {/* ===== Slide 1 ===== */}
         <SwiperSlide>
           <HeroSlide
             badge="Up To 50% Off"
@@ -29,7 +28,6 @@ const Hero = () => {
           />
         </SwiperSlide>
 
-        {/* ===== Slide 2 ===== */}
         <SwiperSlide>
           <HeroSlide
             badge="New Arrivals"
@@ -40,7 +38,6 @@ const Hero = () => {
           />
         </SwiperSlide>
 
-        {/* ===== Slide 3 ===== */}
         <SwiperSlide>
           <HeroSlide
             badge="Editor Choice"
@@ -54,5 +51,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
